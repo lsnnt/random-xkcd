@@ -1,5 +1,5 @@
 This acts as a proxy server for xkcd meme it fetches a random meme and gives it to us.
 This is a simple project that i made just to learn rust there are some comments on code for what i learned.
 #### Here's the meme:
-<img src="https://xkcd1.fustin.top/" />
+<img src="https://xkcd1.fustin.top/?temp=lsnnt" />
 Meme by [xkcd](https://xkcd.com/)
