@@ -62,7 +62,9 @@ async fn handler() -> Result<impl IntoResponse,StatusCode> {
     ?;
     Ok((
         StatusCode::OK,
-        [(header::CONTENT_TYPE,contenttype)],
+        [(header::CONTENT_TYPE,contenttype),
+         (header::CACHE_CONTROL, header::HeaderValue::from_static("max-age=0, no-cache, no-store, must-revalidate")),
+        ],
         bytesforimg
     ))
 
